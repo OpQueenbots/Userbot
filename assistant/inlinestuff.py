@@ -32,14 +32,14 @@ from . import _ult_cache
 
 SUP_BUTTONS = [
     [
-        Button.url("• Repo •", url="https://github.com/TeamUltroid/Ultroid"),
-        Button.url("• Support •", url="t.me/UltroidSupportChat"),
+        Button.url("• Repo •", url="https://t.me/RedWine_MusicWorld"),
+        Button.url("• Support •", url="t.me/Red_Wine_Op"),
     ],
 ]
 
 ofox = "https://graph.org/file/231f0049fcd722824f13b.jpg"
 gugirl = "https://graph.org/file/0df54ae4541abca96aa11.jpg"
-ultpic = "https://graph.org/file/4136aa1650bc9d4109cc5.jpg"
+ultpic = "https://telegra.ph/file/b569bd0a689a920bc66cf.jpg"
 
 apis = [
     "QUl6YVN5QXlEQnNZM1dSdEI1WVBDNmFCX3c4SkF5NlpkWE5jNkZV",
@@ -575,7 +575,7 @@ async def inline_tl(ult):
                 await ult.builder.article(
                     title="How to Use?",
                     description="Tl Searcher by Ultroid",
-                    url="https://t.me/TeamUltroid",
+                    url="https://t.me/Red_Wine_Op",
                     text=text,
                 )
             ],
